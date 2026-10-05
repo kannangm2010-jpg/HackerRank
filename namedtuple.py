@@ -95,5 +95,5 @@ total_marks = 0
 for i in range(n):
     data = Student(*input().split())
     total_marks += int(data.MARKS)
-
-print(f"{total_marks / n:.2f}")
+    
+    print(f"{total_marks / n:.2f}")
